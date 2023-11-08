@@ -1,0 +1,96 @@
+:root {
+    --kal-primary: hsla(36, 99%, 52%, 1);
+    --kal-sub: rgb(47, 47, 47);
+    --kal-accent: hsla(205, 99%, 52%, 1);
+}
+body {
+    background-color: #F5F5F5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+.f-literata {
+    font-family: 'Literata', serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.f-lato {
+    font-family: 'Lato', sans-serif;
+}
+.kal-title {
+    font-weight: bold;
+    color: var(--kal-primary);
+}
+.kal-subtitle {
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--kal-sub);
+}
+.kal-nav .navbar-nav{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+.kal-nav .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: 0.25rem;
+}
+
+.kal-nav {
+    margin-bottom: 6rem;
+}
+.kal-content {
+    padding: 4rem 6rem;
+}
+
+.about-card, .kal-card-shadow {
+    box-shadow: 0px 3.094827651977539px 10.058189392089844px 0px hsla(0, 0%, 0%, 0.21);
+    background: #fff;
+    padding: 5rem;
+}
+a.kal-card-shadow {
+    display: block;
+}
+.about-card .about-img {
+    background-size: cover !important;
+    background-position: center;
+    background: url('/assets/about-bg.png');
+    border-radius: 15px;    
+}
+.about-quotes {
+    padding-left: 1rem;
+}
+.about-quotes .glyph {
+    font-size: 8rem;
+    margin-top: -4rem;
+    color: hsla(205, 99%, 52%, 1);
+    ;
+}
+    .about-quotes p {
+    width: 83%;
+    margin-top: -6.5rem;
+    /* line-height: 1.5rem; */
+}
+
+
+/* indiv */
+.kal-muted, .indiv-desc {
+    color: hsla(0, 0%, 53%, 1);
+}
+.indiv-desc {
+    font-family: 'Literata', serif;
+}
+.kal-indiv-title {
+    font-weight: bold;
+    color: var(--kal-accent);
+}
+
+.sticky-note {
+    font-family: 'Times New Roman', Times, serif;
+    background: hsla(54, 100%, 93%, 1);
+    font-style: italic;
+}
