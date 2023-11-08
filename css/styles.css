@@ -58,7 +58,6 @@ a.kal-card-shadow {
 .about-card .about-img {
     background-size: cover !important;
     background-position: center;
-    background: url('/assets/about-bg.png');
     border-radius: 15px;    
 }
 .about-quotes {
